@@ -1,0 +1,51 @@
+[
+    {
+        "image": "../assets/apple.jpg",
+        "name": "apple.jpg"
+    },
+    {
+        "image": "../assets/barbossa.jpeg",
+        "name": "barbossa.jpeg"
+    },
+    {
+        "image": "../assets/coin.jpg",
+        "name": "coin.jpg"
+    },
+    {
+        "image": "../assets/davy.jpeg",
+        "name": "davy.jpeg"
+    },
+    {
+        "image": "../assets/duo.jpeg",
+        "name": "duo.jpeg"
+    },
+    {
+        "image": "../assets/elizabeth.jpeg",
+        "name": "elizabeth.jpeg"
+    },
+    {
+        "image": "../assets/gibbs.jpeg",
+        "name": "gibbs.jpeg"
+    },
+    {
+        "image": "../assets/monkey.jpeg",
+        "name": "monkey.jpeg"
+    },
+    {
+        "image": "../assets/norrington.jpg",
+        "name": "norrington.jpg"
+    },
+    {
+        "image": "../assets/sparrow.jpeg",
+        "name": "sparrow.jpeg"
+    },
+    {
+        "image": "../assets/tia.jpeg",
+        "name": "tia.jpeg"
+    },
+    {
+        "image": "../assets/will.jpeg",
+        "name": "will.jpeg"
+    }
+    
+]

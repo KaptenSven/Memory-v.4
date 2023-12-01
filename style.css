@@ -1,0 +1,126 @@
+body {
+  background-color: rgba(7, 7, 98, 0.878);
+  min-height: 100%;
+  width: 100%;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: center;
+  grid-gap: 16px;
+  grid-template-columns: repeat(8, 140px);
+  grid-template-rows: repeat(2, calc(140px / 2 * 3));
+}
+
+.tile {
+  background: url("Assets/background.jpg");
+  background-size: cover;
+  width: 140px;
+  height: calc(140px / 2 * 3);
+
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+#headerTitle {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Courier New", Courier, monospace;
+  font-variant: small-caps;
+  font-weight: 800;
+  padding-top: 2%;
+  color: black;
+}
+
+#player1Div,
+#player2Div {
+  text-align: center;
+  font-size: 44px;
+  font-family: "Bangers", sans-serif;
+  color: aliceblue;
+  padding-top: 5%;
+}
+
+.btn {
+  font-family: "Bangers";
+  font-size: 20px;
+  color: black;
+}
+
+#launchModalButton {
+  padding: 20px;
+  font-size: 25px;
+  background-color: gray;
+  border: none;
+  opacity: 0.8;
+}
+
+#launchModalButton:hover {
+  opacity: 1;
+}
+
+#playButton {
+  margin-left: 40px;
+  margin-right: -50px;
+  font-size: 30px;
+  background-color: rgb(11, 10, 11);
+  color: aliceblue;
+}
+
+#resetButton {
+  background-color: gray;
+  border: none;
+  padding: 20px;
+  position: absolute;
+  bottom: 0px;
+
+  height: 60px;
+  opacity: 0.8;
+}
+
+#resetButton:hover {
+  opacity: 1;
+}
+
+.modal-dialog {
+  top: 15vh;
+  max-width: 20vw;
+}
+
+.modal-backdrop {
+  z-index: -1;
+}
+
+.modal-title,
+.modal-body {
+  font-family: "Righteous";
+}
+
+.modal-title {
+  font-size: 20px;
+  color: #060506;
+  font-family: monospace;
+  font-weight: 500;
+}
+
+.modal-body {
+  font-size: 18px;
+  color: #000000;
+  font-family: monospace;
+}
+
+.modal-footer {
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
